@@ -1,5 +1,5 @@
 ## About the project
-This project is a simple web server create to absorb the content and studies from golang programming language
+This project is a simple CRUD api created to absorb the content and studies from golang programming language
 
 ### API docs
 
