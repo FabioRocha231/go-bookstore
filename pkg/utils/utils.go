@@ -18,8 +18,8 @@ func ParseBody(r *http.Request, x interface{}) {
 func GetIdConverted(id string) (int64, bool) {
 	ID, err := strconv.ParseInt(id, 0, 0)
 	if err != nil {
-		return 0, false
+		return 0, true
 	}
 
-	return ID, true
+	return ID, false
 }
