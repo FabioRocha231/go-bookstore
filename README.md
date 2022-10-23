@@ -12,7 +12,7 @@ This project is a simple web server create to absorb the content and studies fro
 ### DATABASE configuration
 you have to go to config folder and edit app.go file to update the
 ```gorm.Open("mysql", "root:123456789@Jj@/study?charset=utf8&parseTime=True&loc=Local")```
-to you mySql Database configuration
+to your mySql Database configuration
 
 ### JSON OBJECT FORMAT
 
@@ -38,7 +38,7 @@ type Book struct {
 ## Getting started
 
 to run this project you need to clone this repository and use the `go run main.go` command in your CL shell
-on just download the bin main and execute it. to execute the bin you have to create a a mysq database
+on just download the bin main and execute it. to execute the bin you have to create a mysql database
 with the root user and 123456789@Jj password with a study named table
 
 ### Layout
