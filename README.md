@@ -46,7 +46,7 @@ with the root user and 123456789@Jj password with a study named table
 ```tree
 ├── cmd
 │   └── main
-│   		└── main.go
+│   	  └── main.go
 ├── README.md
 ├── build
 │   ├── admin
@@ -54,15 +54,15 @@ with the root user and 123456789@Jj password with a study named table
 │   └── controller
 │       └── Dockerfile
 └─ pkg
-  ├── config
-  │   └── app.go
-  ├── utils
-  │   └── utils.go 
-  └── controllers   
-  │    └── book-controller.go
-  └── models
-  │    └── book.go   
-  └── routes
+   ├── config
+   │   └── app.go
+   ├── utils
+   │   └── utils.go 
+   └── controllers   
+   │    └── book-controller.go
+   └── models
+   │    └── book.go   
+   └── routes
 
 ```
 
