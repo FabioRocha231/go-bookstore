@@ -53,27 +53,17 @@ with the root user and 123456789@Jj password with a study named table
 │   │   └── Dockerfile
 │   └── controller
 │       └── Dockerfile
-├── pkg
-│   ├── config
-│   │   └── app.go
-│   ├── utils
-│   │   └── utils.go 
-│   └── controllers   
-│   │    └── book-controller.go
-│   └── models
-│   │    └── book.go   
-│   └── routes
-│       └── bookstore-routes.go
-├── release
-│   ├── template-admin.yaml
-│   └── template-controller.yaml
-├── test
-│   ├── README.md
-│   └── test_make.sh
-├── third_party
-│   └── README.md
-└── vendor
-    └── README.md
+└─ pkg
+  ├── config
+  │   └── app.go
+  ├── utils
+  │   └── utils.go 
+  └── controllers   
+  │    └── book-controller.go
+  └── models
+  │    └── book.go   
+  └── routes
+
 ```
 
 A brief description of the layout:
